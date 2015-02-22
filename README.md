@@ -1,6 +1,8 @@
 Heroku buildpack: Ruby
 ======================
 
+This is a fork of heroku/heroku-buildpack-ruby with the changes first implemented in makersquare/heroku-buildpack-ruby to support deploying apps in sub-folders on heroku - this has not yet been tested and it's intended purpose is to work with Dokku.
+
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for Ruby, Rack, and Rails apps. It uses [Bundler](http://gembundler.com) for dependency management.
 
 Usage
