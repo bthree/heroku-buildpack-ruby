@@ -4,7 +4,7 @@ require 'pathname'
 
 app_subdir   = ENV['APP_SUBDIR'] || ''
 build_path = File.join(ARGV.first, app_subdir)
-if Pathname.new(ARGV.first).join("Gemfile").exist?
+if Pathname.new(build_path).join("Gemfile").exist?
   puts "Ruby"
   exit 0
 else
